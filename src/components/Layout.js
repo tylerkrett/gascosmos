@@ -28,7 +28,7 @@ class Layout extends Component {
   }
 
   render() {
-    const { children, fullMenu } = this.props;
+    const { children, fullMenu, footer } = this.props;
     const { isPreloaded } = this.state;
     return (
       <StaticQuery
@@ -58,7 +58,7 @@ class Layout extends Component {
               <div id="page-wrapper">
                 <SideBar fullMenu={fullMenu} />
                 {children}
-                <Footer />
+           {footer &&     <Footer />}
               </div>
             </div>
           </>
@@ -71,5 +71,9 @@ class Layout extends Component {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 };
+
+Layout.defaultProps = {
+  footer: true
+}
 
 export default Layout;

@@ -52,12 +52,13 @@ export default class MyForm extends React.Component {
              <input type="text" name="monthly requirements" required  />   
              <label>Business Operational Area*</label>
              <input type="text" name="operational area" required  placeholder="List any city, state, region or country you would like to distribute to"/>   
-        <label>More Info</label>
+        <label>More Information/Comments</label>
         
         <input type="text" name="more info" />
         <p>Distributorships are limited and awarded to the applicants with most potential. Details of current monthly order volume, future requirements, first order value etc will help support your application. Approximate sales value etc. You must read, accept and agree to our Terms of Business, Terms of Use Policy and Charger and Whipper Safety Guidelines</p>
 
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+        <p>By clicking submit, I hereby acknowledged that I have read, agree and accept the Terms of Business, Terms of Use Policy and Charger and Whipper Safety Guidelines as shown on this website.</p>
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
     );

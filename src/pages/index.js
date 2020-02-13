@@ -23,7 +23,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/#" className="image">
+          <a  className="image">
             <img src={pic1} alt="" />
           </a>
           <div className="content">
@@ -37,9 +37,9 @@ const IndexPage = () => (
             </p>
             <p>All our stock comes with COI, Certificate of Origin with all labelling in strict accordance with EU 169/2011 EK regulations meeting Worldwide Food Standard requirements regulations, ensuring you and your customers receive stock without delay.</p>
             <p>Gastro comes in 2 distinct varieties, Gastro Grey and Gastro Silver.</p>
-            <a href="/#" className="special">
+            {/* <a href="/Silver" className="special">
               Learn more
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
@@ -66,7 +66,7 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/Silver" className="image">
             <img src={pic3} alt="" />
           </a>
           <div className="content">
@@ -75,7 +75,7 @@ const IndexPage = () => (
         <p>
               Produced in our state-of-the-art factory, Gastro Silver N2O Cream Chargers contain the perfect gas for food and medical applications. Gastro Silver Cream Chargers are made of 100% recyclable steel, they are painted grey, not refillable and contain min. 10 ml (approx. 8 gram) of pure food-grade N2O. 
         </p>
-            <a href="/#" className="special">
+            <a href="/Silver" className="special">
               Learn more
             </a>
           </div>
