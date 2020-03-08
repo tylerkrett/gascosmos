@@ -16,7 +16,7 @@ module.exports = {
     {
       icon: 'fa-instagram',
       name: 'Instagram',
-      url: 'https://instagram.com/',
+      url: 'https://instagram.com/gascosmos/',
     },
 
     {
@@ -30,6 +30,6 @@ module.exports = {
       url: 'info@gascosmos.com',
     },
   ],
-  phone: '000-00000',
-  address: 'World Wide',
+  phone: '07423 541 020',
+  address: '19-21 Swan street, West Malling, ME19 6JU',
 };

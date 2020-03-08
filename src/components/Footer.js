@@ -1,5 +1,6 @@
 import React from 'react';
 import Form from './Form';
+
 import config from '../../config';
 export default function Footer() {
   return (

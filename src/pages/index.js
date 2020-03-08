@@ -50,15 +50,23 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Gastro Grey</h2>
+            <h2 className="major">Gastro Grey/Silver</h2>
             <p>
-            Available throughout the UK, Ireland, Portugal & Spain, Gastro Grey is produced by Liss in their state-of-the-art European factory.
+           Gastro Grey available throughout the UK, Ireland, Portugal & Spain, Gastro Grey is produced by Liss in their state-of-the-art European factory.
 
 
             </p>
+            <p>Gastro Silver is available worldwide, Gastro Silver combines the very best industry knowledge, manufacturing techniques and high quality to produce a truly outstanding product.</p>
             <p>Gastro Grey N2O Cream Chargers contain the ideal gas for food and medical applications. Gastro Grey Cream Chargers are made of 100% recyclable steel, they are painted grey, not refillable and contain min. 10 ml (approx. 8 gram) of pure food-grade N2O. </p>
+             
+        <p>
+           Gastro Silver N2O Cream Chargers contain the perfect gas for food and medical applications. Gastro Silver Cream Chargers are made of 100% recyclable steel, they are painted grey, not refillable and contain min. 10 ml (approx. 8 gram) of pure food-grade N2O. 
+        </p>
             <a href="/Grey" className="special">
-              Learn more
+              Grey info
+            </a>
+            <a href="/Silver" className="special">
+              Silver Info
             </a>
           </div>
         </div>
@@ -70,13 +78,15 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Gastro Silver</h2>
-        <p>Available worldwide, Gastro Silver combines the very best industry knowledge, manufacturing techniques and high quality to produce a truly outstanding product.</p>
-        <p>
-              Produced in our state-of-the-art factory, Gastro Silver N2O Cream Chargers contain the perfect gas for food and medical applications. Gastro Silver Cream Chargers are made of 100% recyclable steel, they are painted grey, not refillable and contain min. 10 ml (approx. 8 gram) of pure food-grade N2O. 
-        </p>
-            <a href="/Silver" className="special">
-              Learn more
+            <h2 className="major">Mosa Silver</h2>
+  <p>MOSA’s cream chargers can also be used to give added volume and body to any dressings or sauces that might not otherwise have been aerated. This further allows you some leeway to experiment with your recipes. Once the air is added to the mix, the sauce sticks to foods more easily as well as making the flavour of the food much stronger.</p>
+
+  
+            <p>Mosa N2O Cream Chargers contain the ideal gas for food and medical applications. Mosa are made of 100% recyclable steel, they are not refillable and contain min. 10 ml (approx. 8 gram) of pure food grade N2O. </p>
+             
+        
+        <a href="/Mosa" className="special">
+              More Info
             </a>
           </div>
         </div>

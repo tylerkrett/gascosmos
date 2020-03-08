@@ -22,6 +22,16 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
+              to="/Mosa"
+            >
+              Mosa 
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
               to="/Grey"
             >
               Gastro Grey
@@ -37,6 +47,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               Gastro Silver
             </Link>
           </li>
+       
           <li>
             <Link
               onClick={e => {
@@ -75,6 +86,16 @@ export default function Nav({ onMenuToggle = () => {} }) {
               to="/Legal"
             >
               Legal
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/Help"
+            >
+              Help
             </Link>
           </li>
         </ul>
